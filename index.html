@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PrealphaV1</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script src="./app/javascript/jquery-1.11.2.min.js" type="text/javascript"></script>
+  <script>
+    $(window).on('load resize', function () {
+            var screenHeight = $(window).height();
+            var logoHeight = $('#logo').height();
+            var logoTopPadding = ((screenHeight - logoHeight) / 2) - (logoHeight / 2);
+          
+            $('#logo').css("padding-top", logoTopPadding);
+        });
+  </script>
+
+</head>
+<body>
+  <app-root>Loading...</app-root>
+<script type="text/javascript" src="inline.js"></script><script type="text/javascript" src="styles.defd4e11283d3aa66903.bundle.js"></script><script type="text/javascript" src="main.7187529091e505a86f42.bundle.js"></script></body>
+</html>
